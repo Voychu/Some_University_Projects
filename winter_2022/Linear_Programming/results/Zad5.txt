@@ -1,0 +1,51 @@
+Problem:    Zad5
+Rows:       8
+Columns:    4
+Non-zeros:  20
+Status:     OPTIMAL
+Objective:  profit = 3632.5 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 maximumDemand[p1]
+                    B            125                         400 
+     2 maximumDemand[p2]
+                    NU           100                         100          2.98 
+     3 maximumDemand[p3]
+                    NU           150                         150          2.45 
+     4 maximumDemand[p4]
+                    NU           500                         500          2.91 
+     5 maximumMachineTimeUsage[M1]
+                    B          58.75                          60 
+     6 maximumMachineTimeUsage[M2]
+                    NU            60                          60          25.2 
+     7 maximumMachineTimeUsage[M3]
+                    B             35                          60 
+     8 profit       B         3632.5                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[p1]        B            125             0               
+     2 x[p2]        B            100             0               
+     3 x[p3]        B            150             0               
+     4 x[p4]        B            500             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 6
+        max.rel.err = 1.17e-16 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-16 on column 1
+        max.rel.err = 9.45e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
